@@ -1,0 +1,18 @@
+version: "3.9"
+
+services:
+  container1:
+    build: ./container1
+    ports:
+      - "8080:80"
+
+  container2:
+    build: ./container2
+    ports:
+      - "8081:80"
+
+  container3:
+    build: ./container3
+    ports:
+      - "8082:80"
+
